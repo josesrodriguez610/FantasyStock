@@ -124,7 +124,7 @@ const updateStocks = () => {
       method: 'get',
       url: 'https://cloud.iexapis.com/stable/stock/market/batch',
       params: {
-        token: 'pk_4bbc64245441470eb7fee8d6ea8ac8de',
+        token: 'Tpk_72165f58d5784aea8831c6f9a9e6006a',
         types: 'quote',
         symbols: array.join(',')
       }
